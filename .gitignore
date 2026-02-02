@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+examples/ToolBench/tool_llama3/
 # C extensions
 *.so
 
@@ -199,3 +199,5 @@ wandb/
 
 # macOS
 .DS_Store
+results/
+*.jsonl
