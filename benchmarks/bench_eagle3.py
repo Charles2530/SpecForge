@@ -230,7 +230,7 @@ def main():
                     num_samples=num_prompts,
                 )
             )
-
+    # import pdb; pdb.set_trace()
     if args.skip_launch_server:
         batch_size = configs[0][0] if len(configs) > 0 else 8
         run_benchmarks(batch_size, None, None, None)
